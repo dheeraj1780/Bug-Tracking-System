@@ -65,8 +65,5 @@ To set up the Bug Tracker on your local machine:
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for review.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 For any questions or inquiries, please reach out to (mailto:jdeeran2004@gmail.com).
