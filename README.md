@@ -47,14 +47,16 @@ To set up the Bug Tracker on your local machine:
    - Open your IDE (e.g., Eclipse) and import the project as a Maven/Java project.
 
 3. **Database Setup**:
-   - Create a MySQL database and import the provided SQL script to set up the necessary tables.
-   - Update the database connection settings in the `db.properties` file.
+   - Create a MySQL database and import the provided SQL script to set up the necessary tables from `src/main/webapp/db/Dump20240521` file
 
 4. **Deploy the application**:
    - Deploy the project on Apache Tomcat or any other compatible Java server.
 
 5. **Run the application**:
-   - Access the application via `http://localhost:8080/bug-tracker-system`.
+   - Access the application via
+   ```bash
+    http://localhost:8080/bug-tracker-system
+   ```
 
 ## Usage
 - **Admin**: Log in using admin credentials to create user accounts, assign roles, and oversee the system.
