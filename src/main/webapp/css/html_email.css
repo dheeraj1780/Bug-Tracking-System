@@ -1,0 +1,38 @@
+body{
+    background-color: #0082C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #002642;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#approved{
+    background-color: green;
+    cursor: pointer;
+}
+
+#disapproved{
+    background-color: red;
+    cursor: pointer;
+}
+
+#block{
+    background-color: black;
+    cursor: pointer;
+}

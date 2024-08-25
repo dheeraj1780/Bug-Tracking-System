@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(180deg,#0082C8,#0082C8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background: linear-gradient(120deg,#002642,#002642);
+    padding: 5%;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.title{
+    font-size: 50px;
+}
+
+label{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+input{
+    background-color: #dedede;
+    border-radius: 5px;
+    padding: 3px;
+    border: #ffffff;
+}
+
+#role{
+    background-color: #dedede;
+    font-size: large;
+}
+
+option{
+    background-color: #dedede;
+}
+
+#signin_btn{
+    border-radius: 50px;
+    background: linear-gradient(180deg,#0082C8,#0082C8);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 22px;
+    border: #ffffff;
+    color: #ffffff;
+}
+
+#signin_btn:hover{
+    background: linear-gradient(180deg,#5ec1f6,#429ecf);
+    box-shadow: 0 0 100px #000000;
+}

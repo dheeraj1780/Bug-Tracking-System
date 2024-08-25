@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+body{
+    background: linear-gradient(180deg,#0082C8,#0082C8);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 50vh;
+    height: 70vh; 
+    background-color: #002642;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+    border-radius: 30px ; 
+    padding: 30px;
+}
+
+.header{
+    border-bottom:2px black solid;
+    
+}
+
+.content{
+	margin-bottom: 5px;
+}
+
+footer{
+	margin-inline-end: auto;
+}
+
+button{
+	color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+#back_btn{
+	background-color: #ff8040;
+	cursor: pointer;
+}	
+
+#edit_btn{
+	margin-left: 40%;
+	background-color: blue;
+	cursor: pointer;
+}
+
+#approve_btn{
+	background-color: green;
+	cursor: pointer;
+}
+
+#disapprove_btn{
+	background-color: red;
+	cursor: pointer;
+}
+
+#block_btn{
+	background-color: black;
+	cursor: pointer;
+}
+
+/*end of base plate*/
+
+body{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
